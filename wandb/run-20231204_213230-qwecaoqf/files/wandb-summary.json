@@ -1,0 +1,1 @@
+{"num_nodes": [4], "num_edges": [13], "Is undirected": [true], "_timestamp": 1701756019.9804559, "_runtime": 1669.6774687767029, "_step": 299, "train/acc": 0.9401709401709402, "test/acc": 0.5042735042735043, "_wandb": {"runtime": 415}}
