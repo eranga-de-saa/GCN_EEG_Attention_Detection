@@ -1,0 +1,11 @@
+/var/folders/x4/6xjb_tfs6vdg6llm0_l4vjz00000gn/T/ipykernel_69041/122919934.py:14: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:264.)
+  edge_index = torch.tensor([np.array(coo.row), np.array(coo.col)], dtype=torch.long)
+/Users/erangad/opt/miniconda3/envs/env/lib/python3.10/site-packages/torch_geometric/data/storage.py:327: UserWarning: Unable to accurately infer 'num_nodes' from the attribute set '{'y', 'edge_index', 'edge_weight'}'. Please explicitly set 'num_nodes' as an attribute of 'data' to suppress this warning
+  warnings.warn(
+Data(edge_index=[2, 13], y=0, edge_weight=[13])
+Number of nodes: 4
+Number of edges: 13
+Average node degree: 3.25
+Has self-loops: True
+Is undirected: True
+env: WANDB_API_KEY=ca052f00ea6de6ee4031c1b94b78629919d4191c
