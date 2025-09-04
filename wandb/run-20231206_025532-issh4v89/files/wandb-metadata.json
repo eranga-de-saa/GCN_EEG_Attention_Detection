@@ -1,0 +1,36 @@
+{
+    "os": "macOS-14.1.2-arm64-arm-64bit",
+    "python": "3.10.11",
+    "heartbeatAt": "2023-12-06T10:55:32.455151",
+    "startedAt": "2023-12-06T10:55:32.003353",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "git@github.com:eranga-de-saa/COSC-521-Project.git",
+        "commit": "e0d0a9e7098121689e400d35b82078fb5344be92"
+    },
+    "email": "erangadesaa@gmail.com",
+    "root": "/Users/erangad/Desktop/NS Project/COSC-521-Project",
+    "host": "Erangas-MacBook-Pro.local",
+    "username": "erangad",
+    "executable": "/Users/erangad/opt/miniconda3/envs/env/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "/": {
+            "total": 460.4317207336426,
+            "used": 9.21860122680664
+        }
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
