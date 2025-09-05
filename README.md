@@ -81,18 +81,6 @@ Four network configurations were tested:
 - **Epochs**: 300
 - **Objective**: Cross-participant generalization
 
-## Project Structure
-
-```
-.
-├── P1-P38/                    # Participant data directories
-│   ├── *.csv                  # Behavioral data
-│   └── *.xdf                  # EEG recordings
-├── dataLoading/               # Data preprocessing notebooks
-├── tmp/                       # Temporary processing files
-├── README.md                  # This file
-└── .gitignore                # Git ignore rules
-```
 
 ## Key Features
 
@@ -123,8 +111,7 @@ Training and testing accuracies were compared across all four model configuratio
 
 ## Usage
 
-1. **Data preprocessing**: Run notebooks in `dataLoading/` directory
-2. **Model training**: Execute GCNN training scripts with desired configuration
-3. **Evaluation**: Analyze cross-participant classification performance
+1. **Model training**: Execute GCNN training scripts with desired configuration
+2. **Evaluation**: Analyze cross-participant classification performance
 
 This project demonstrates the effectiveness of graph neural networks for analyzing brain connectivity patterns in cognitive tasks, providing insights into neural mechanisms underlying attention and cognitive control.
